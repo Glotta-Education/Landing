@@ -81,22 +81,22 @@ h6 {
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.05em;
-  color: #858694;
+  color: #14a699;
 }
 
 .main-nav > li.is-active > a,
 .main-nav > li.current-menu-item > a,
 .main-nav > li:hover > a,
 .main-nav > li > a:hover {
-  color: #fe688b;
+  color: #ffd500;
 }
 
 .main-footer {
-  color: #808291;
+  color: #14a699;
 }
 
 .main-footer a:not(.btn) {
-  color: #808291;
+  color: #ffd500;
 }
 
 .main-footer a:not(.btn):hover {
@@ -105,16 +105,16 @@ h6 {
 
 @media (min-width: 1200px) {
   .main-header .is-stuck {
-    background: #fff !important;
+    background: #fff7ee !important;
   }
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
   .mainbar-wrap.is-stuck .main-nav > li > a,
   .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
-    color: rgba(0, 0, 0, 0.7) !important;
+    color: #14a699 !important;
   }
   .mainbar-wrap.is-stuck .social-icon a:hover,
   .mainbar-wrap.is-stuck .main-nav > li > a:hover {
-    color: #000 !important;
+    color: #ffd500 !important;
   }
 }
