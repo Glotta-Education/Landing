@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="theme-color" content="#3ed2a7">
 
-	<link rel="shortcut icon" href="./favicon.png" />
+	<link rel="shortcut icon" href="{{asset('assets')}}/img/icon/logo web-ts1619413664.png" />
 
-	<title>Ave HTML Template</title>
+	<title>Glotta Edication</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
 
@@ -40,9 +40,9 @@
 									<a class="navbar-brand" href="index-creative.html" rel="home">
 										<span class="navbar-brand-inner">
 											<img class="logo-dark" src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Ave HTML Template">
-											<img class="logo-sticky" src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Ave HTML Template">
+											<img class="logo-sticky" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
 											<img class="mobile-logo-default" src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Ave HTML Template">
-											<img class="logo-default" src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Ave HTML Template">
+											<img class="logo-default" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
 										</span>
 									</a>
 									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
@@ -76,7 +76,7 @@
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Works</span>
+													<span class="txt">About</span>
 												</span>
 											</a>
 										</li>
@@ -94,7 +94,7 @@
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">About</span>
+													<span class="txt">Feature</span>
 												</span>
 											</a>
 										</li>
@@ -103,7 +103,7 @@
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Testimonials</span>
+													<span class="txt">Team</span>
 												</span>
 											</a>
 										</li>
@@ -112,7 +112,7 @@
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">News</span>
+													<span class="txt">Contact</span>
 												</span>
 											</a>
 										</li>
