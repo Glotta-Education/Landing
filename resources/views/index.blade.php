@@ -39,9 +39,9 @@
 								<div class="navbar-header">
 									<a class="navbar-brand" href="index-creative.html" rel="home">
 										<span class="navbar-brand-inner">
-											<img class="logo-dark" src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Ave HTML Template">
+											<img class="logo-dark" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
 											<img class="logo-sticky" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
-											<img class="mobile-logo-default" src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Ave HTML Template">
+											<img class="mobile-logo-default" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
 											<img class="logo-default" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
 										</span>
 									</a>
@@ -1086,7 +1086,7 @@
 					<div class="lqd-column col-md-6 col-md-offset-3 text-center">
 
 						<figure class="mb-40">
-							<img src="{{asset('assets')}}/img/logo/logo-1.svg" alt="Logo">
+							<img src="{{asset('assets')}}/img/logo/0glotta.png" alt="Logo">
 						</figure>
 
 						<p>© 2019 Ave. All Rights Reserved.</p>
