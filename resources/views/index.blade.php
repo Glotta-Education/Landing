@@ -127,11 +127,11 @@
 
 							<div class="header-module">
 
-								<a href="#" target="_blank" class="btn btn-default text-uppercase circle btn-bordered border-thick font-size-12 font-weight-semibold btn-white">
+								{{-- <a href="#" target="_blank" class="btn btn-default text-uppercase circle btn-bordered border-thick font-size-12 font-weight-semibold btn-white">
 									<span>
 										<span class="btn-txt">Join to Download</span>
 									</span>
-								</a>
+								</a> --}}
 
 							</div><!-- /.header-module -->
 
@@ -155,7 +155,7 @@
 						class="ld-particles-inner"
 						id="ld-1527244273759-519b63e0-a9d6"
 						data-particles="true"
-						data-particles-options='{"particles":{"number":{"value":5,"density":2},"color":{"value":["#f9b851","#60eacb","#ff97af","#4e6bff"]},"shape":{"type":["circle","edge","triangle"]},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":40,"speed":5}},"move":{"enable":true,"direction":"right","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'>
+						data-particles-options='{"particles":{"number":{"value":5,"density":2},"color":{"value":["#b1ddc9","#fed500","#0ea699","#e2e87e"]},"shape":{"type":["circle","edge","triangle"]},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":40,"speed":5}},"move":{"enable":true,"direction":"right","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'>
 					</div>
 				</div>
 
@@ -173,7 +173,7 @@
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
 								data-split-options='{"type":"lines"}'
 							>
-								<span class="ld-fh-txt"> Adventures in creative age</span>
+								<span class="ld-fh-txt"> Show up your language vibes! </span>
 							</h1>
 						</div><!-- /.ld-fancy-heading -->
 
@@ -183,7 +183,7 @@
 								data-custom-animations="true"
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
 								data-split-options='{"type":"lines"}'>
-								<span class="ld-fh-txt"> We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business.</span>
+								<span class="ld-fh-txt"> Dengan metode kursus inovatif yang akan membawa kemudahan dalam belajar bahasa asing dimana saja dan kapan saja! </span>
 							</p>
 						</div><!-- /.ld-fancy-heading -->
 
@@ -191,15 +191,15 @@
 
 							<div class="lqd-column col-sm-6 mb-3 mb-md-0">
 
-								<a href="#" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+								<a href="#start" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
 									<span>
-										<span class="btn-txt">Start a project</span>
+										<span class="btn-txt">Let's Go!</span>
 									</span>
 								</a>
 
 							</div><!-- /.col-sm-6 -->
 
-							<div class="lqd-column col-sm-6">
+							{{-- <div class="lqd-column col-sm-6">
 
 								<div class="ld-fancy-heading">
 									<p>
@@ -211,7 +211,7 @@
 									</p>
 								</div>
 
-							</div><!-- /.col-sm-6 -->
+							</div><!-- /.col-sm-6 --> --}}
 
 						</div><!-- /.row -->
 
@@ -244,7 +244,7 @@
 			</div><!-- /.container -->
 		</section>
 
-		<section class="vc_row pt-80 pb-120">
+		<section class="vc_row pt-80 pb-120" id="start">
 			<div class="container">
 				<div class="row">
 
@@ -252,7 +252,7 @@
 
 						<header class="fancy-title" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-32,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
 
-							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">About Ave Agency</h6>
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">About Glotta Education</h6>
 							<h2 class="mt-md-4 pr-md-7 mb-4">Ultimate experiences with story, emotion and purpose</h2>
 
 							<div class="row">
@@ -280,47 +280,53 @@
 						<div class="lqd-iconbox-stack" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"400","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
 
 							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-blue" data-plugin-options='{"color": "#3d59e8"}'>
-
-								<div class="iconbox-icon-wrap">
+                                <img src="{{asset('assets')}}/img/icon/germany.svg" alt="Image">
+								{{-- <div class="iconbox-icon-wrap">
 									<span class="iconbox-icon-container">
 										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <defs xmlns="http://www.w3.org/2000/svg"> <linearGradient gradientUnits="userSpaceOnUse" id="grad874540" x1="0%" y1="0%" x2="0%" y2="100%"> <stop offset="0%" stop-color="rgb(61, 89, 232)"></stop> <stop offset="100%" stop-color="rgb(61, 89, 232)"></stop> </linearGradient> </defs> <g> <rect x="1" y="10" fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" width="62" height="41"></rect> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="22" y1="63" x2="42" y2="63"></line> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="32" y1="63" x2="32" y2="51"></line> </g> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="43" x2="64" y2="43"></line> </svg>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
+                                    </span>
+								</div> --}}
+                                <!-- /.iconbox-icon-wrap -->
+								{{-- <div class="contents">
 									<p class="font-size-14">
-										<strong>UI / UX</strong>
+										<strong>Germany</strong>
 									</p>
-								</div><!-- /.contents -->
+								</div> --}}
+                                <!-- /.contents -->
 
 							</div><!-- /.iconbox -->
 
 							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-pink" data-plugin-options='{"color": "#fe688b"}'>
-
-								<div class="iconbox-icon-wrap">
+                                <img src="{{asset('assets')}}/img/icon/united-kingdom.svg" alt="Image">
+								{{-- <div class="iconbox-icon-wrap">
 									<span class="iconbox-icon-container">
 										<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad681643" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(254, 104, 139)"></stop><stop offset="100%" stop-color="rgb(254, 104, 139)"></stop></linearGradient></defs> <polygon fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" points="1,25 12,59 52,59 63,25 "></polygon> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="14" y1="25" x2="22" y2="5"></line> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="50" y1="25" x2="42" y2="5"></line> <polyline fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,41 30,48 43,35 "></polyline> </svg>
 									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
+								</div> --}}
+                                <!-- /.iconbox-icon-wrap -->
+								{{-- <div class="contents">
 									<p class="font-size-14">
-										<strong>ECOMMERCE</strong>
+										<strong>English</strong>
 									</p>
-								</div><!-- /.contents -->
+								</div> --}}
+                                <!-- /.contents -->
 
 							</div><!-- /.iconbox -->
 
 							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-green" data-plugin-options='{"color": "#28d5a7"}'>
-
-								<div class="iconbox-icon-wrap">
+                                <img src="{{asset('assets')}}/img/icon/south-korea.svg" alt="Image">
+								{{-- <div class="iconbox-icon-wrap">
 									<span class="iconbox-icon-container">
 										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad395875" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(40, 213, 167)"></stop><stop offset="100%" stop-color="rgb(40, 213, 167)"></stop></linearGradient></defs> <rect x="1" y="7" fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" width="62" height="50"></rect> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="15" x2="63" y2="15"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="10" y1="11" x2="6" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="18" y1="11" x2="14" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="26" y1="11" x2="22" y2="11"></line> <polyline fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,35 30,42 43,29 "></polyline> </svg>
 									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents">
+								</div> --}}
+                                <!-- /.iconbox-icon-wrap -->
+								{{-- <div class="contents">
 									<p class="font-size-14">
-										<strong>BRANDING</strong>
+										<strong>Korea</strong>
 									</p>
-								</div><!-- /.contents -->
+								</div> --}}
+                                <!-- /.contents -->
 
 							</div><!-- /.iconbox -->
 

@@ -33,7 +33,7 @@ $size-xl: 125;
 	// flex: 1 auto; // growing if row settings is set to equal columns height and middle the content
 	text-align: center;
 	transition: box-shadow 0.3s ease, background 0.3s ease;
-	
+
 	.iconbox-icon-container,
 	.contents,
 	> h3 {
@@ -63,7 +63,7 @@ $size-xl: 125;
 		line-height: 1em;
 		color: var(--color-primary);
 		transition: border 0.3s, box-shadow 0.3s;
-		
+
 		i,
 		img,
 		object,
@@ -77,14 +77,14 @@ $size-xl: 125;
 			display: inline-block;
 			width: 40px;
 			line-height: 0;
-			
+
 			stop {
 				transition: stop-color 0.3s ease;
 			}
 		}
-		
+
 		> svg {
-			
+
 			&,
 			path,
 			rect,
@@ -95,16 +95,16 @@ $size-xl: 125;
 				transition: fill 0.3s, stroke 0.3s;
 			}
 		}
-		
+
 		i {
 			display: inline-block;
 			font-size: 1em;
 		}
-		
+
 		&[data-plugin-animated-icon] {
 			font-size: 1em;
 			line-height: 1em !important;
-			
+
 			> svg,
 			object {
 				opacity: 0;
@@ -165,7 +165,7 @@ $size-xl: 125;
 	&.iconbox-icon-animating {
 
 		.iconbox-icon-container {
-	
+
 			> svg,
 			> object {
 				opacity: 1;
@@ -177,9 +177,9 @@ $size-xl: 125;
 .iconbox-square,
 .iconbox-circle,
 .iconbox-lozenge {
-	
+
 	.iconbox-icon-container {
-		
+
 		i,
 		img[src$=".svg"],
 		object,
@@ -216,15 +216,15 @@ $size-xl: 125;
 /* Icon Shape*/
 .iconbox-circle,
 .iconbox-lozenge,
-.iconbox-hexagon,	
+.iconbox-hexagon,
 .iconbox-square {
-	
+
 	.iconbox-icon-container {
 		border-radius: 6px;
 		background: var(--color-primary);
 		font-size: 40px;
 		color: #fff;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -233,7 +233,7 @@ $size-xl: 125;
 	}
 }
 .iconbox-circle,
-.iconbox-lozenge,	
+.iconbox-lozenge,
 .iconbox-square {
 
 	.iconbox-icon-container {
@@ -243,10 +243,10 @@ $size-xl: 125;
 }
 
 .iconbox-circle {
-	
+
 	.iconbox-icon-container {
 		border-radius: 50em;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -256,12 +256,12 @@ $size-xl: 125;
 }
 
 .iconbox-lozenge {
-	
+
 	.iconbox-icon-container {
 		// margin-bottom: 8%;
 		border-radius: 15px;
 		transform: rotate(45deg);
-		
+
 		i,
 		img[src$=".svg"],
 		object,
@@ -272,13 +272,13 @@ $size-xl: 125;
 }
 
 .iconbox-hexagon {
-	
+
 	.iconbox-icon-container {
 		width: 80px;
 		height: 50px;
 		margin-top: ( 80px / 3 );
 		margin-bottom: ( 80px / 3 );
-		
+
 		&:before,
 		&:after {
 			content: "";
@@ -392,7 +392,7 @@ $size-xl: 125;
 	align-items: stretch !important; // !important to not be overwritten by .text-right
 	justify-content: flex-start;
 	text-align: left;
-	
+
 	.iconbox-icon-wrap {
 		margin-right: 30px;
 	}
@@ -406,7 +406,7 @@ $size-xl: 125;
 
 	&.text-right {
 		flex-direction: row-reverse;
-		
+
 		.iconbox-icon-wrap {
 			margin-right: 0;
 			margin-left: 30px;
@@ -514,7 +514,7 @@ $size-xl: 125;
 				background: currentColor;
 			}
 		}
-		
+
 		&:before {
 			opacity: 1;
 		}
@@ -523,7 +523,7 @@ $size-xl: 125;
 			.iconbox-icon-container {
 
 				svg {
-					
+
 					path {
 						fill: currentColor;
 						stroke: currentColor;
@@ -561,7 +561,7 @@ $size-xl: 125;
 			transition: transform 0.35s cubic-bezier(0.23, 1, 0.320, 1), opacity 0.35s 0.1s cubic-bezier(0.23, 1, 0.320, 1);
 		}
 		&:hover {
-			
+
 			&:before {
 				transform: scale(1.1);
 				transition: transform 0.35s cubic-bezier(0.23, 1, 0.320, 1), opacity 0.1s 0s cubic-bezier(0.23, 1, 0.320, 1);
@@ -648,25 +648,25 @@ $size-xl: 125;
 
 /* Heading sizes */
 .iconbox-heading-xs {
-	
+
 	h3 {
 		font-size: 18px;
 	}
 }
 .iconbox-heading-sm {
-	
+
 	h3 {
 		font-size: 20px;
 	}
 }
 .iconbox-heading-md {
-	
+
 	h3 {
 		font-size: 24px;
 	}
 }
 .iconbox-heading-lg {
-	
+
 	h3 {
 		font-size: 28px;
 	}
@@ -707,9 +707,9 @@ $size-xl: 125;
 $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, iconbox-md: $size-md, iconbox-lg: $size-lg, iconbox-xl: $size-xl);
 
 @each $size, $iconBoxSize in $sizes {
-	
+
 	#{'.' + $size} {
-		
+
 		.iconbox-icon-container {
 
 			img {
@@ -719,21 +719,21 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 		&.iconbox-circle,
 		&.iconbox-square,
 		&.iconbox-lozenge {
-			
+
 			.iconbox-icon-container {
 				width: $iconBoxSize + px;
 				height: $iconBoxSize + px;
 			}
 		}
 		&.iconbox-hexagon {
-			
+
 			.iconbox-icon-container {
 				width: $iconBoxSize + px;
 				height: ( $iconBoxSize / 1.6 ) + px;
 			}
-			
+
 			&:not(.iconbox-inline) {
-				
+
 				.iconbox-icon-container {
 					margin-top: ( $iconBoxSize / 3 ) + px;
 					margin-bottom: ( $iconBoxSize / 3 ) + px;
@@ -744,10 +744,10 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 }
 
 .iconbox-xxs {
-	
+
 	.iconbox-icon-container {
 		font-size: 20px;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -756,10 +756,10 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 	}
 }
 .iconbox-xs {
-	
+
 	.iconbox-icon-container {
 		font-size: 20px;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -768,10 +768,10 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 	}
 }
 .iconbox-sm {
-	
+
 	.iconbox-icon-container {
 		font-size: 25px;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -780,10 +780,10 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 	}
 }
 .iconbox-md {
-	
+
 	.iconbox-icon-container {
 		font-size: 40px;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -792,10 +792,10 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 	}
 }
 .iconbox-lg {
-	
+
 	.iconbox-icon-container {
 		font-size: 45px;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -804,10 +804,10 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 	}
 }
 .iconbox-xl {
-	
+
 	.iconbox-icon-container {
 		font-size: 50px;
-		
+
 		img[src$=".svg"],
 		object,
 		> svg {
@@ -837,14 +837,14 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 
 .iconbox-blue {
 	background-color: #dde1f8;
-	
+
 	.contents {
 		color: #3d59e8;
 	}
 }
 .iconbox-pink {
 	background-color: #fcd7e0;
-	
+
 	.contents {
 		color: #fe688b;
 	}
@@ -859,7 +859,7 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 
 .lqd-parallax-iconboxes {
 	padding: 35px 35px 15px;
-	box-shadow: 0px 2px 14px 0px rgba(#000, 0.082);	
+	box-shadow: 0px 2px 14px 0px rgba(#000, 0.082);
 }
 
 .iconbox-color-pippin {
@@ -900,7 +900,7 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 }
 @media screen and ( min-width: $grid-breakpoint-sm ) {
 
-	
+
 	.lqd-iconbox-stack {
 		position: relative;
 		text-align: center;
@@ -933,7 +933,7 @@ $sizes: ( iconbox-xxs: $size-xxs, iconbox-xs: $size-xs, iconbox-sm: $size-sm, ic
 }
 @media screen and ( max-width: $grid-breakpoint-sm - 1 ) {
 
-	
+
 	.lqd-iconbox-stack {
 
 		.iconbox {

@@ -1,6 +1,6 @@
 :root {
-  --color-primary: #fe688b;
-  --color-secondary: #f9b851;
+  --color-primary: #fed500;
+  --color-secondary: #14a699;
   --color-gradient-start: #fe688b;
   --color-gradient-stop: #000b96;
 }
@@ -14,6 +14,7 @@ body {
 
 #content {
   background-image: url(../../demo/bg/creative-content-bg.png);
+  background-color: #fff6ed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -68,8 +69,8 @@ h6 {
 }
 
 .btn-solid {
-  background-color: #3d59e8;
-  border-color: #3d59e8;
+  background-color: #14a699;
+  border-color: #14a699;
 }
 
 .btn-solid:hover {
@@ -105,7 +106,7 @@ h6 {
 
 @media (min-width: 1200px) {
   .main-header .is-stuck {
-    background: #fff7ee !important;
+    background: rgba(255, 255, 255, 0.7) !important;
   }
   .mainbar-wrap.is-stuck .social-icon a,
   .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
