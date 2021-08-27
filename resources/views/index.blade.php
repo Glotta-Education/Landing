@@ -72,7 +72,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="#works">
+											<a href="#about">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -155,7 +155,7 @@
 						class="ld-particles-inner"
 						id="ld-1527244273759-519b63e0-a9d6"
 						data-particles="true"
-						data-particles-options='{"particles":{"number":{"value":5,"density":2},"color":{"value":["#b1ddc9","#fed500","#0ea699","#e2e87e"]},"shape":{"type":["circle","edge","triangle"]},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":40,"speed":5}},"move":{"enable":true,"direction":"right","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'>
+						data-particles-options='{"particles":{"number":{"value":12,"density":5},"color":{"value":["#fed500","#b1ddc9","#0ea699","#e2e87e"]},"shape":{"type":["circle"]},"size":{"value":55,"random":true,"anim":{"enable":true,"size_min":10,"speed":5}},"move":{"enable":true,"direction":"left","speed":1,"random":true,"out_mode":"out","attract":{"enable":true,"rotateX":1200,"rotateY":600}}},"interactivity":[],"retina_detect":true}'>
 					</div>
 				</div>
 
@@ -173,7 +173,7 @@
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
 								data-split-options='{"type":"lines"}'
 							>
-								<span class="ld-fh-txt"> Show up your language vibes! </span>
+								<p class="ld-fh-txt"> Show up your <span style="color: #ffd500">language </span> vibes! </p>
 							</h1>
 						</div><!-- /.ld-fancy-heading -->
 
@@ -191,9 +191,9 @@
 
 							<div class="lqd-column col-sm-6 mb-3 mb-md-0">
 
-								<a href="#start" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+								<a href="#about" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
 									<span>
-										<span class="btn-txt">Let's Go!</span>
+										<span class="btn-txt">Wanna know more?</span>
 									</span>
 								</a>
 
@@ -234,7 +234,7 @@
 								</defs>
 							</svg>
 							<figure class="clip-svg" data-responsive-bg="true" style="clip-path: url(#masked-image-1); -webkit-clip-path: url(#masked-image-1);">
-								<img src="{{asset('assets')}}/demo/misc/masked-img-1.jpg" alt="Image">
+								<img src="{{asset('assets')}}/img/home.png" alt="Image">
 							</figure>
 						</div><!-- /ld-masked-image -->
 
@@ -244,7 +244,7 @@
 			</div><!-- /.container -->
 		</section>
 
-		<section class="vc_row pt-80 pb-120" id="start">
+		<section class="vc_row pt-80 pb-120" id="about">
 			<div class="container">
 				<div class="row">
 
@@ -338,7 +338,7 @@
 			</div><!-- /.container -->
 		</section><!-- /.vc_row -->
 
-		<section class="vc_row pt-80 pb-120" id="works">
+		{{-- <section class="vc_row pt-80 pb-120" id="works">
 			<div class="container">
 				<div class="row">
 
@@ -617,7 +617,7 @@
 
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section>
+		</section> --}}
 
 		<section class="vc_row pt-30 pb-60" id="services">
 			<div class="container">
@@ -1025,7 +1025,7 @@
 
 	</main><!-- /#content.content -->
 
-	<footer class="main-footer pt-80">
+	<footer class="main-footer pt-80" style="background-color: #fff6ed">
 
 		<section>
 
@@ -1095,7 +1095,7 @@
 							<img src="{{asset('assets')}}/img/logo/0glotta.png" alt="Logo">
 						</figure>
 
-						<p>© 2019 Ave. All Rights Reserved.</p>
+						<p>© 2021 Glotta Education. All Rights Reserved.</p>
 
 					</div><!-- /.col-md-6 -->
 
