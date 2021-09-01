@@ -37,12 +37,12 @@
 
 							<div class="col-auto pr-5">
 								<div class="navbar-header">
-									<a class="navbar-brand" href="index-creative.html" rel="home">
+									<a class="navbar-brand" href="" rel="home">
 										<span class="navbar-brand-inner">
-											<img class="logo-dark" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
-											<img class="logo-sticky" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
-											<img class="mobile-logo-default" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
-											<img class="logo-default" src="{{asset('assets')}}/img/logo/0glotta.png" alt="Ave HTML Template">
+											<img class="logo-dark" src="{{asset('assets')}}/img/logo/glottamini.png" alt="Ave HTML Template">
+											<img class="logo-sticky" src="{{asset('assets')}}/img/logo/glottasticky.png" alt="Ave HTML Template">
+											<img class="mobile-logo-default" src="{{asset('assets')}}/img/logo/glottamini.png" alt="Ave HTML Template">
+											<img class="logo-default" src="{{asset('assets')}}/img/logo/glottamini.png" alt="Ave HTML Template">
 										</span>
 									</a>
 									<button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'>
@@ -63,7 +63,7 @@
 									<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-start" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
 
 										<li>
-											<a href="#content">
+											<a href="#home">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -90,7 +90,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="#about">
+											<a href="#feature">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -99,7 +99,7 @@
 											</a>
 										</li>
 										<li>
-											<a href="#testimonials">
+											<a href="#team">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -108,11 +108,11 @@
 											</a>
 										</li>
 										<li>
-											<a href="#news">
+											<a href="#event">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Contact</span>
+													<span class="txt">Event</span>
 												</span>
 											</a>
 										</li>
@@ -144,7 +144,7 @@
 
 	</header><!-- /.main-header -->
 
-	<main id="content" class="content">
+	<main id="home" class="content">
 
 		<section class="vc_row fullheight d-flex flex-wrap align-items-center pb-50">
 
@@ -173,7 +173,7 @@
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
 								data-split-options='{"type":"lines"}'
 							>
-								<p class="ld-fh-txt"> Show up your <span style="color: #ffd500">language </span> vibes! </p>
+								<p class="ld-fh-txt" style="color: #14a699"> Show up your <span style="color: #ffd500">language </span> vibes! </p>
 							</h1>
 						</div><!-- /.ld-fancy-heading -->
 
@@ -234,7 +234,7 @@
 								</defs>
 							</svg>
 							<figure class="clip-svg" data-responsive-bg="true" style="clip-path: url(#masked-image-1); -webkit-clip-path: url(#masked-image-1);">
-								<img src="{{asset('assets')}}/img/home.png" alt="Image">
+								<img src="{{asset('assets')}}/img/landing.png" alt="Image">
 							</figure>
 						</div><!-- /ld-masked-image -->
 
@@ -244,99 +244,46 @@
 			</div><!-- /.container -->
 		</section>
 
-		<section class="vc_row pt-80 pb-120" id="about">
+        <section class="vc_row pt-160 pb-120" id="about">
 			<div class="container">
-				<div class="row">
+				<div class="row d-flex flex-wrap align-items-center">
 
-					<div class="lqd-column col-lg-6">
+					<div class="lqd-column col-lg-5 col-md-6 mb-5 mb-md-0" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
 
-						<header class="fancy-title" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-32,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
+						<header class="fancy-title mb-60">
 
 							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">About Glotta Education</h6>
-							<h2 class="mt-md-4 pr-md-7 mb-4">Ultimate experiences with story, emotion and purpose</h2>
-
-							<div class="row">
-
-								<div class="lqd-column col-xs-4 col-sm-2 pt-3 mb-4">
-
-									<div class="lqd-h-sep">
-										<span class="lqd-h-sep-inner"></span><!-- /.lqd-h-sep-inner -->
-									</div><!-- /.lqd-h-sep -->
-
-								</div><!-- /.col-sm-2 -->
-
-								<div class="lqd-column col-sm-10 col-xs-12">
-									<p>We help our clients succeed by creating brand identities, digital experiences, and printmaterials that communicate clearly, achieve marketing goals, and look fantastic.</p>
-								</div><!-- /.col-sm-10 -->
-
-							</div><!-- /.row -->
+							<h2 class="mt-4 mb-4">Get to know more about us</h2>
+							<p><b style="color: #fed500">Glotta Education</b> merupakan lembaga kursus bahasa asing yang bertujuan untuk menghasilkan lulusan yang cakap dalam berbahasa asing dengan menggunakan metode pembelajaran yang inovatif yang disesuaikan dengan metode belajar para <b>Polyglot</b> serta dapat dilakukan secara mandiri, dimana saja dan kapan saja.</p>
 
 						</header><!-- /.fancy-title -->
 
-					</div><!-- /.col-lg-6 -->
-
-					<div class="lqd-column col-lg-5 col-md-6 col-lg-offset-1">
-
-						<div class="lqd-iconbox-stack" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"400","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
-
-							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-blue" data-plugin-options='{"color": "#3d59e8"}'>
-                                <img src="{{asset('assets')}}/img/icon/germany.svg" alt="Image">
-								{{-- <div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container">
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <defs xmlns="http://www.w3.org/2000/svg"> <linearGradient gradientUnits="userSpaceOnUse" id="grad874540" x1="0%" y1="0%" x2="0%" y2="100%"> <stop offset="0%" stop-color="rgb(61, 89, 232)"></stop> <stop offset="100%" stop-color="rgb(61, 89, 232)"></stop> </linearGradient> </defs> <g> <rect x="1" y="10" fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" width="62" height="41"></rect> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="22" y1="63" x2="42" y2="63"></line> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="32" y1="63" x2="32" y2="51"></line> </g> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="43" x2="64" y2="43"></line> </svg>
-                                    </span>
-								</div> --}}
-                                <!-- /.iconbox-icon-wrap -->
-								{{-- <div class="contents">
-									<p class="font-size-14">
-										<strong>Germany</strong>
-									</p>
-								</div> --}}
-                                <!-- /.contents -->
-
-							</div><!-- /.iconbox -->
-
-							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-pink" data-plugin-options='{"color": "#fe688b"}'>
-                                <img src="{{asset('assets')}}/img/icon/united-kingdom.svg" alt="Image">
-								{{-- <div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container">
-										<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad681643" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(254, 104, 139)"></stop><stop offset="100%" stop-color="rgb(254, 104, 139)"></stop></linearGradient></defs> <polygon fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" points="1,25 12,59 52,59 63,25 "></polygon> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="14" y1="25" x2="22" y2="5"></line> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="50" y1="25" x2="42" y2="5"></line> <polyline fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,41 30,48 43,35 "></polyline> </svg>
-									</span>
-								</div> --}}
-                                <!-- /.iconbox-icon-wrap -->
-								{{-- <div class="contents">
-									<p class="font-size-14">
-										<strong>English</strong>
-									</p>
-								</div> --}}
-                                <!-- /.contents -->
-
-							</div><!-- /.iconbox -->
-
-							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-green" data-plugin-options='{"color": "#28d5a7"}'>
-                                <img src="{{asset('assets')}}/img/icon/south-korea.svg" alt="Image">
-								{{-- <div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container">
-										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad395875" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(40, 213, 167)"></stop><stop offset="100%" stop-color="rgb(40, 213, 167)"></stop></linearGradient></defs> <rect x="1" y="7" fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" width="62" height="50"></rect> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="15" x2="63" y2="15"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="10" y1="11" x2="6" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="18" y1="11" x2="14" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="26" y1="11" x2="22" y2="11"></line> <polyline fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,35 30,42 43,29 "></polyline> </svg>
-									</span>
-								</div> --}}
-                                <!-- /.iconbox-icon-wrap -->
-								{{-- <div class="contents">
-									<p class="font-size-14">
-										<strong>Korea</strong>
-									</p>
-								</div> --}}
-                                <!-- /.contents -->
-
-							</div><!-- /.iconbox -->
-
-						</div><!-- /.lqd-iconbox-stack -->
+						{{-- <a href="https://www.youtube.com/watch?v=LjaKHqDbzSA&feature=youtu.be" class="btn btn-naked text-uppercase fresco btn-icon-left btn-icon-xlg btn-icon-circle btn-icon-solid font-size-12 font-weight-semibold">
+							<span>
+								<span class="btn-txt">See how we work</span>
+								<span class="btn-icon font-size-18	"><i class="fa fa-play"></i></span>
+							</span>
+						</a> --}}
 
 					</div><!-- /.col-lg-5 col-md-6 -->
 
+					<div class="lqd-column col-lg-6 col-md-5 col-md-offset-1">
+
+						<div class="liquid-img-group-single stretch-to-right" data-shadow-style="4" data-roundness="4" data-inview="true" data-animate-shadow="true" data-reveal="true" data-reveal-options='{"direction":"rl","bgcolor":"rgb(254, 213, 0)"}'>
+							<div class="liquid-img-group-img-container">
+								<div class="liquid-img-container-inner">
+									<figure>
+										<img  src="{{asset('assets')}}/img/about.png" alt="Banner" />
+									</figure>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- /.col-lg-6 col-md-5 col-md-offset-1 -->
+
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section><!-- /.vc_row -->
+		</section>
 
 		{{-- <section class="vc_row pt-80 pb-120" id="works">
 			<div class="container">
@@ -619,7 +566,7 @@
 			</div><!-- /.container -->
 		</section> --}}
 
-		<section class="vc_row pt-30 pb-60" id="services">
+        <section class="vc_row pt-30 pb-60" id="services">
 			<div class="container">
 
 				<div class="row">
@@ -628,12 +575,12 @@
 
 						<header class="fancy-title text-center mb-75" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"initValues":{"translateY":80,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
 
-							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">WE CHOOSE AVE</h6>
-							<h2 class="mt-4 mb-4">Inspired design for the digital age</h2>
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">Our Services</h6>
+							<h2 class="mt-4 mb-4">Take your services for better language</h2>
 
 							<div class="row">
 								<div class="lqd-column col-md-6 col-md-offset-3 px-md-5">
-									<p>We’re passionate about solving problems through creative communications.</p>
+									<p>Kursus bahasa asing online yang menghadirkan pembelajaran interaktif dan efektif</p>
 								</div><!-- /.col-md-6 col-md-offset-3 -->
 							</div><!-- /.row -->
 
@@ -654,8 +601,8 @@
 								</span>
 							</div><!-- /.iconbox-icon-container -->
 							<div class="contents">
-								<h3 class="mb-2">Newest technology</h3>
-								<p>Produce the highest quality work and services for every client, on every project</p>
+								<h3 class="mb-2">Teen Camps</h3>
+								<p>Tingkatkan prestasi di sekolah dan mempersiapkan ke jenjang yang lebih tinggi.</p>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
 
@@ -670,8 +617,8 @@
 								</span>
 							</div><!-- /.iconbox-icon-container -->
 							<div class="contents">
-								<h3 class="mb-2">Attention to details</h3>
-								<p>Produce the highest quality work and services for every client, on every project</p>
+								<h3 class="mb-2">Enforce League</h3>
+								<p>Persiapan untuk studi lanjut ke jenjang lebih tinggi serta yang ingin bekerja di luar negeri. </p>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
 
@@ -686,8 +633,8 @@
 								</span>
 							</div><!-- /.iconbox-icon-container -->
 							<div class="contents">
-								<h3 class="mb-2">Newest technology</h3>
-								<p>Produce the highest quality work and services for every client, on every project</p>
+								<h3 class="mb-2">Professional Class</h3>
+								<p>Para profesional yang ingin meningkatkan kemampuan berbahasa ke tingkat lebih tinggi.</p>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
 
@@ -702,8 +649,8 @@
 								</span>
 							</div><!-- /.iconbox-icon-container -->
 							<div class="contents">
-								<h3 class="mb-2">Honest pricing</h3>
-								<p>Produce the highest quality work and services for every client, on every project</p>
+								<h3 class="mb-2">TOEFL Preparation</h3>
+								<p>Mempersiapkan diri untuk mengikuti tes TOEFL atau tes Inggris lainnya.</p>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
 
@@ -714,48 +661,108 @@
 			</div><!-- /.container -->
 		</section>
 
-		<section class="vc_row pt-60 pb-90">
+        <section class="vc_row pt-80 pb-80" id="feature">
 			<div class="container">
-				<div class="row d-flex flex-wrap align-items-center">
+				<div class="row">
 
-					<div class="lqd-column col-lg-5 col-md-6 mb-5 mb-md-0" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":160,"initValues":{"translateY":50,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+					<div class="lqd-column col-lg-6">
 
-						<header class="fancy-title mb-60">
+						<header class="fancy-title" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-32,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
 
-							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">HOW WE WORK</h6>
-							<h2 class="mt-4 mb-4">How do we create amazing products</h2>
-							<p>We have a simple mission: to produce the highest quality work and services for every client, on every project.</p>
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">With The Best Feature</h6>
+							<h2 class="mt-md-4 pr-md-7 mb-4">Hola!
+                                <span class="spin w1"> How are you?</span>
+                                <span class="spin w2"> Wie geht's?</span>
+                                <span class="spin w3"> Jal jinaesseo?</span>
+                                <span class="spin w4"> Nĭ hăo ma?</span>
+                                <span class="spin w5"> Ogenki desuka?</span>
+                            </h2>
+
+							<div class="row">
+
+								<div class="lqd-column col-xs-4 col-sm-2 pt-3 mb-4" >
+
+									<div class="lqd-h-sep">
+										<span class="lqd-h-sep-inner"></span><!-- /.lqd-h-sep-inner -->
+									</div><!-- /.lqd-h-sep -->
+
+								</div><!-- /.col-sm-2 -->
+
+								<div class="lqd-column col-sm-10 col-xs-12">
+									<p>Glotta menerapkan suatu metode kursus bahasa asing yang inovatif, dengan mengadopsi metode belajar para Polyglot. Dengan cara memprioritaskan keahlian berbahasa listening dan speaking serta menggunakan metode belajar yang persisten dan sistematis.
+                                    </p>
+								</div><!-- /.col-sm-10 -->
+
+							</div><!-- /.row -->
 
 						</header><!-- /.fancy-title -->
 
-						<a href="https://www.youtube.com/watch?v=LjaKHqDbzSA&feature=youtu.be" class="btn btn-naked text-uppercase fresco btn-icon-left btn-icon-xlg btn-icon-circle btn-icon-solid font-size-12 font-weight-semibold">
-							<span>
-								<span class="btn-txt">See how we work</span>
-								<span class="btn-icon font-size-18	"><i class="fa fa-play"></i></span>
-							</span>
-						</a>
+					</div><!-- /.col-lg-6 -->
+
+					<div class="lqd-column col-lg-5 col-md-6 col-lg-offset-1">
+
+						<div class="lqd-iconbox-stack" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1200","startDelay":"400","delay":"100","easing":"easeOutQuint","direction":"forward","initValues":{"scaleX":0.25,"scaleY":0.25,"opacity":0},"animations":{"scaleX":1,"scaleY":1,"opacity":1}}'>
+
+							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-blue" data-plugin-options='{"color": "#3d59e8"}'>
+                                <img src="{{asset('assets')}}/img/icon/germany.svg" alt="Germany">
+								{{-- <div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <defs xmlns="http://www.w3.org/2000/svg"> <linearGradient gradientUnits="userSpaceOnUse" id="grad874540" x1="0%" y1="0%" x2="0%" y2="100%"> <stop offset="0%" stop-color="rgb(61, 89, 232)"></stop> <stop offset="100%" stop-color="rgb(61, 89, 232)"></stop> </linearGradient> </defs> <g> <rect x="1" y="10" fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" width="62" height="41"></rect> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="22" y1="63" x2="42" y2="63"></line> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="32" y1="63" x2="32" y2="51"></line> </g> <line fill="none" stroke="url(#grad874540)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="43" x2="64" y2="43"></line> </svg>
+                                    </span>
+								</div> --}}
+                                <!-- /.iconbox-icon-wrap -->
+								{{-- <div class="contents">
+									<p class="font-size-14">
+										<strong>Germany</strong>
+									</p>
+								</div> --}}
+                                <!-- /.contents -->
+
+							</div><!-- /.iconbox -->
+
+							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-pink" data-plugin-options='{"color": "#fe688b"}'>
+                                <img src="{{asset('assets')}}/img/icon/united-kingdom.svg" alt="United Kingdom">
+								{{-- <div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad681643" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(254, 104, 139)"></stop><stop offset="100%" stop-color="rgb(254, 104, 139)"></stop></linearGradient></defs> <polygon fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" points="1,25 12,59 52,59 63,25 "></polygon> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="14" y1="25" x2="22" y2="5"></line> <line fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-miterlimit="10" x1="50" y1="25" x2="42" y2="5"></line> <polyline fill="none" stroke="url(#grad681643)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,41 30,48 43,35 "></polyline> </svg>
+									</span>
+								</div> --}}
+                                <!-- /.iconbox-icon-wrap -->
+								{{-- <div class="contents">
+									<p class="font-size-14">
+										<strong>English</strong>
+									</p>
+								</div> --}}
+                                <!-- /.contents -->
+
+							</div><!-- /.iconbox -->
+
+							<div class="iconbox iconbox-round iconbox-shadow iconbox-heading-xs iconbox-filled d-inline-flex iconbox-green" data-plugin-options='{"color": "#28d5a7"}'>
+                                <img src="{{asset('assets')}}/img/icon/south-korea.svg" alt="South Korea">
+								{{-- <div class="iconbox-icon-wrap">
+									<span class="iconbox-icon-container">
+										<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad395875" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(40, 213, 167)"></stop><stop offset="100%" stop-color="rgb(40, 213, 167)"></stop></linearGradient></defs> <rect x="1" y="7" fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" width="62" height="50"></rect> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="1" y1="15" x2="63" y2="15"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="10" y1="11" x2="6" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="18" y1="11" x2="14" y2="11"></line> <line fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-miterlimit="10" x1="26" y1="11" x2="22" y2="11"></line> <polyline fill="none" stroke="url(#grad395875)" stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" points="23,35 30,42 43,29 "></polyline> </svg>
+									</span>
+								</div> --}}
+                                <!-- /.iconbox-icon-wrap -->
+								{{-- <div class="contents">
+									<p class="font-size-14">
+										<strong>Korea</strong>
+									</p>
+								</div> --}}
+                                <!-- /.contents -->
+
+							</div><!-- /.iconbox -->
+
+						</div><!-- /.lqd-iconbox-stack -->
 
 					</div><!-- /.col-lg-5 col-md-6 -->
 
-					<div class="lqd-column col-lg-6 col-md-5 col-md-offset-1">
-
-						<div class="liquid-img-group-single stretch-to-right" data-shadow-style="4" data-roundness="4" data-inview="true" data-animate-shadow="true" data-reveal="true" data-reveal-options='{"direction":"rl","bgcolor":"rgb(25, 38, 47)"}'>
-							<div class="liquid-img-group-img-container">
-								<div class="liquid-img-container-inner">
-									<figure>
-										<img  src="{{asset('assets')}}/demo/banners/banner-1.jpg" alt="Banner" />
-									</figure>
-								</div>
-							</div>
-						</div>
-
-					</div><!-- /.col-lg-6 col-md-5 col-md-offset-1 -->
-
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section>
+		</section><!-- /.vc_row -->
 
-		<section class="vc_row pt-90 pb-150" id="about">
+		<section class="vc_row pt-90 pb-150" id="team">
 			<div class="container">
 				<div class="row d-flex flex-wrap align-items-center">
 
@@ -813,17 +820,17 @@
 
 						<header class="fancy-title mb-60">
 
-							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">OUR COMMUNITY</h6>
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">Glotta's Team</h6>
 							<h2 class="mt-4 mb-4">We are optimists who love to work together</h2>
-							<p>Take your career to next level. Apply to our team and see what we can do together. You’re good enough, right ?</p>
+							<p>Kita percaya dengan profesionalitas dan pengalaman yang kita miliki mampu memberikan layanan yang sempurna.</p>
 
 						</header><!-- /.fancy-title -->
 
-						<a href="#" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
+						{{-- <a href="#" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
 							<span>
 								<span class="btn-txt">Join the team</span>
 							</span>
-						</a>
+						</a> --}}
 
 					</div><!-- /.col-md-7 -->
 
@@ -831,7 +838,7 @@
 			</div><!-- /.container -->
 		</section>
 
-		<section class="vc_row pt-200 pb-100" id="testimonials">
+		{{-- <section class="vc_row pt-200 pb-100" id="testimonials">
 			<div class="container">
 				<div class="row">
 
@@ -927,9 +934,9 @@
 
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section>
+		</section> --}}
 
-		<section class="vc_row pt-100 pb-70" id="news">
+		<section class="vc_row pt-100 pb-70" id="event">
 			<div class="container">
 				<div class="row">
 
@@ -1005,15 +1012,15 @@
 
 						<header class="fancy-title fancy-title-big mb-6">
 							<h2 data-split-text="true" data-split-options='{"type":"lines"}'>
-								Let’s create something extraordinary
+								Let's show up your language vibes
 								<br>
-								<span class="font-size-2-15x lh-15 text-primary" data-fittext="true" data-fittext-options='{ "maxFontSize": 70, "minFontSize": 40, "compressor": 0.5 }'>together</span>
+								<span class="font-size-2-15x lh-15 text-primary" data-fittext="true" data-fittext-options='{ "maxFontSize": 70, "minFontSize": 40, "compressor": 0.5 }'>With us!</span>
 							</h2>
 						</header><!-- /.fancy-title -->
 
 						<a href="#" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
 							<span>
-								<span class="btn-txt">Start a project</span>
+								<span class="btn-txt">Try Now!</span>
 							</span>
 						</a>
 
@@ -1034,47 +1041,48 @@
 
 					<div class="lqd-column col-md-3 col-sm-6">
 
+						<h3 class="widget-title">Glotta Education</h3>
+						<ul class="lqd-custom-menu reset-ul">
+							<li><a style="color: #14a699">Show up your language vibes!</a></li>
+
+						</ul>
+
+					</div><!-- /.col-md-3 col-sm-6 -->
+
+					<div class="lqd-column col-md-3 col-sm-6">
+
 						<h3 class="widget-title">Navigation</h3>
 						<ul class="lqd-custom-menu reset-ul">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Product</a></li>
-							<li><a href="#">Customers</a></li>
-							<li><a href="#">Pricing</a></li>
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#feature">Feature</a></li>
+                            <li><a href="#team">Team</a></li>
+							<li><a href="#event">Event</a></li>
 						</ul>
 
 					</div><!-- /.col-md-3 col-sm-6 -->
 
 					<div class="lqd-column col-md-3 col-sm-6">
 
-						<h3 class="widget-title">Abous Us</h3>
+						<h3 class="widget-title">Our Services</h3>
 						<ul class="lqd-custom-menu reset-ul">
-							<li><a href="#">Company</a></li>
-							<li><a href="#">Jobs</a></li>
-							<li><a href="#">Press</a></li>
-							<li><a href="#">Blog</a></li>
+							<li><a>Teen Camps</a></li>
+							<li><a>Enforce League</a></li>
+							<li><a>Professional Class</a></li>
+							<li><a>TOEFL Preparation</a></li>
 						</ul>
 
-					</div><!-- /.col-md-3 col-sm-6 -->
+					</div>
+                    <!-- /.col-md-3 col-sm-6 -->
 
 					<div class="lqd-column col-md-3 col-sm-6">
 
-						<h3 class="widget-title">Workflows</h3>
+						<h3 class="widget-title">Contact</h3>
 						<ul class="lqd-custom-menu reset-ul">
-							<li><a href="#">Management</a></li>
-							<li><a href="#">Reporting</a></li>
-							<li><a href="#">Tracking</a></li>
-							<li><a href="#">All Users</a></li>
-						</ul>
-
-					</div><!-- /.col-md-3 col-sm-6 -->
-
-					<div class="lqd-column col-md-3 col-sm-6">
-
-						<h3 class="widget-title">Resources</h3>
-						<ul class="lqd-custom-menu reset-ul">
-							<li><a href="#">Ave Guide</a></li>
-							<li><a href="#">Support</a></li>
-							<li><a href="#">Intergration</a></li>
+							<li><a href="#" style="color: #14a699">09090900909</a></li>
+							<li><a href="#"></a></li>
+							<li><a href="#"></a></li>
 							<li><a href="#">Communnity</a></li>
 						</ul>
 
@@ -1092,7 +1100,7 @@
 					<div class="lqd-column col-md-6 col-md-offset-3 text-center">
 
 						<figure class="mb-40">
-							<img src="{{asset('assets')}}/img/logo/0glotta.png" alt="Logo">
+							<img src="{{asset('assets')}}/img/logo/glottamini.png" alt="Logo">
 						</figure>
 
 						<p>© 2021 Glotta Education. All Rights Reserved.</p>
@@ -1110,6 +1118,7 @@
 <script src="{{asset('assets')}}/vendors/jquery.min.js"></script>
 <script src="{{asset('assets')}}/js/theme-vendors.js"></script>
 <script src="{{asset('assets')}}/js/theme.min.js"></script>
+<script src="{{asset('assets')}}/js/liquidAjaxMailchimp.min.js"></script>
 
 </body>
 </html>

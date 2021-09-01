@@ -4604,7 +4604,7 @@ jQuery(document).ready(function ($) {
 
       bottomItem.addClass('is-bottom').removeClass('is-active is-top was-active').siblings().removeClass('is-bottom');
     },
-    // Top Item will be based on the active item		
+    // Top Item will be based on the active item
     setTop: function setTop(activeItem) {
       var self = this;
       var element = $(self.element);
@@ -5365,7 +5365,7 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 *
 * Licensed under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
-* 
+*
 * Copyright 2016, Codrops
 * http://www.codrops.com
 */
@@ -6576,7 +6576,7 @@ jQuery(document).ready(function ($) {
     appleTvAnimate: function appleTvAnimate(element, config) {
       var rotate = "rotateX(" + config.xRotationPercentage * -1 * config.maxRotationX + "deg)" + " rotateY(" + config.yRotationPercentage * -1 * config.maxRotationY + "deg)";
       var translate = " translate3d(" + config.xTranslationPercentage * -1 * config.maxTranslationX + "px," + config.yTranslationPercentage * -1 * config.maxTranslationY + "px, 0px)";
-      anime.remove(element.get(0)); // causing move issues 
+      anime.remove(element.get(0)); // causing move issues
 
       element.css({
         transition: 'all 0.25s ease-out',
@@ -7483,7 +7483,7 @@ jQuery(document).ready(function ($) {
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2017, Codrops
  * http://www.codrops.com
  */
@@ -9651,7 +9651,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 *
 * Licensed under the MIT license.
 * http://www.opensource.org/licenses/mit-license.php
-* 
+*
 * Copyright 2017, Codrops
 * http://www.codrops.com
 *

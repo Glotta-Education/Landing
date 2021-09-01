@@ -17551,7 +17551,7 @@ ol.breadcrumb.text-darker a:hover {
   -webkit-box-flex: 1;
           flex: 1 0;
   height: 1px;
-  background-color: var(--color-primary);
+  background-color: var(--color-secondary);
 }
 
 /* 3.65. Restaurant Menu */
