@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="{{asset('assets')}}/css/theme-vendors.min.css" />
 	<link rel="stylesheet" href="{{asset('assets')}}/css/theme.min.css" />
 	<link rel="stylesheet" href="{{asset('assets')}}/css/themes/creative.css" />
+    {{-- <link rel="stylesheet" href="{{asset('assets')}}/css/themes/original.css" /> --}}
 
 	<!-- Head Libs -->
 	<script async src="{{asset('assets')}}/vendors/modernizr.min.js"></script>
@@ -661,7 +662,7 @@
 			</div><!-- /.container -->
 		</section>
 
-        <section class="vc_row pt-80 pb-80" id="feature">
+        <section class="vc_row pt-80 pb-60" id="feature">
 			<div class="container">
 				<div class="row">
 
@@ -761,6 +762,108 @@
 				</div><!-- /.row -->
 			</div><!-- /.container -->
 		</section><!-- /.vc_row -->
+
+        <section class="vc_row pt-30 pb-180">
+            <div class="container">
+                <div class="row">
+
+                    <div class="lqd-column col-md-12 text-center mb-100">
+
+                        <h2>3D Carousel with Icon Boxes</h2>
+
+                    </div><!-- /.lqd-column col-md-12 -->
+
+                    <div class="lqd-column col-md-6 col-md-offset-3">
+
+                        <div class="carousel-container carousel-vertical-3d">
+
+                            <div class="carousel-items">
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-1" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">One Collection</h3>
+                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-2" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">One Collection</h3>
+                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-3" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">One Collection</h3>
+                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
+                                                </svg>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">One Collection</h3>
+                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+
+                                </div><!-- /.carousel-item -->
+
+                            </div><!-- /.carousel-items -->
+
+                        </div><!-- /.carousel-container -->
+
+                    </div><!-- /.lqd-column col-md-6 col-md-offset-3 -->
+
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </section>
 
 		<section class="vc_row pt-90 pb-150" id="team">
 			<div class="container">
