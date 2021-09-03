@@ -63,7 +63,7 @@
 									<ul id="primary-nav" class="main-nav nav align-items-lg-stretch justify-content-lg-start" data-submenu-options='{ "toggleType":"fade", "handler":"mouse-in-out" }' data-localscroll="true">
 
 										<li>
-											<a href="#home">
+											<a href="#content">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
@@ -112,7 +112,7 @@
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Event</span>
+													<span class="txt">Announce</span>
 												</span>
 											</a>
 										</li>
@@ -127,11 +127,11 @@
 
 							<div class="header-module">
 
-								{{-- <a href="#" target="_blank" class="btn btn-default text-uppercase circle btn-bordered border-thick font-size-12 font-weight-semibold btn-white">
+								<a href="#" target="_blank" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold">
 									<span>
-										<span class="btn-txt">Join to Download</span>
+										<span class="btn-txt">Try Now!</span>
 									</span>
-								</a> --}}
+								</a>
 
 							</div><!-- /.header-module -->
 
@@ -144,7 +144,7 @@
 
 	</header><!-- /.main-header -->
 
-	<main id="home" class="content">
+	<main id="content" class="content">
 
 		<section class="vc_row fullheight d-flex flex-wrap align-items-center pb-50">
 
@@ -776,7 +776,7 @@
 										<div class="liquid-img-group-img-container">
 											<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":47}' data-parallax-to='{"translateY":-74}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
 												<figure>
-													<img src="{{asset('assets')}}/demo/team/team-4.jpg"  alt="Team Member"/>
+													<img src="{{asset('assets')}}/demo/team/team2.png"  alt="Team Member"/>
 												</figure>
 											</div><!-- /.liquid-img-container-inner -->
 										</div><!-- /.liquid-img-group-img-container -->
@@ -790,7 +790,7 @@
 										<div class="liquid-img-group-img-container">
 											<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":83}' data-parallax-to='{"translateY":-94}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
 												<figure>
-													<img src="{{asset('assets')}}/demo/team/team-5.jpg" alt="Team Member"/>
+													<img src="{{asset('assets')}}/demo/team/team1.png" alt="Team Member"/>
 												</figure>
 											</div><!-- /.liquid-img-container-inner -->
 										</div><!-- /.liquid-img-group-img-container -->
@@ -802,9 +802,9 @@
 								<div class="liquid-img-group-inner">
 									<div class="liquid-img-group-single" data-roundness="4">
 										<div class="liquid-img-group-img-container">
-											<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":167}' data-parallax-to='{"translateY":-151}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
+											<div class="liquid-img-container-inner" data-parallax="true" data-parallax-from='{"translateY":167}' data-parallax-to='{"translateY":-120}' data-parallax-options='{"overflowHidden": false, "easing": "linear"}'>
 												<figure>
-													<img src="{{asset('assets')}}/demo/team/team-6.jpg"  alt="Team Member"/>
+													<img src="{{asset('assets')}}/demo/team/team3.png"  alt="Team Member"/>
 												</figure>
 											</div><!-- /.liquid-img-container-inner -->
 										</div><!-- /.liquid-img-group-img-container -->
