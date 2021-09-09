@@ -95,7 +95,7 @@
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Feature</span>
+													<span class="txt">Features</span>
 												</span>
 											</a>
 										</li>
@@ -108,12 +108,21 @@
 												</span>
 											</a>
 										</li>
+                                        <li>
+											<a href="#testimonials">
+												<span class="link-icon"></span>
+												<span class="link-txt">
+													<span class="link-ext"></span>
+													<span class="txt">Testimonials</span>
+												</span>
+											</a>
+										</li>
 										<li>
 											<a href="#event">
 												<span class="link-icon"></span>
 												<span class="link-txt">
 													<span class="link-ext"></span>
-													<span class="txt">Announce</span>
+													<span class="txt">Announcement</span>
 												</span>
 											</a>
 										</li>
@@ -130,7 +139,7 @@
 
 								<a href="#" target="_blank" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold">
 									<span>
-										<span class="btn-txt">Try Now!</span>
+										<span class="btn-txt">Register Now!</span>
 									</span>
 								</a>
 
@@ -184,7 +193,7 @@
 								data-custom-animations="true"
 								data-ca-options='{"triggerHandler":"inview","animationTarget":".split-inner","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"scale":1},"animations":{"scale":1}}'
 								data-split-options='{"type":"lines"}'>
-								<span class="ld-fh-txt"> Dengan metode kursus inovatif yang akan membawa kemudahan dalam belajar bahasa asing dimana saja dan kapan saja! </span>
+								<span class="ld-fh-txt"> Di mana metode kursus inovatif yang akan membawa kemudahan dalam belajar bahasa asing dimana saja dan kapan saja! </span>
 							</p>
 						</div><!-- /.ld-fancy-heading -->
 
@@ -194,7 +203,7 @@
 
 								<a href="#about" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
 									<span>
-										<span class="btn-txt">Wanna know more?</span>
+										<span class="btn-txt">Want to know more?</span>
 									</span>
 								</a>
 
@@ -662,7 +671,7 @@
 			</div><!-- /.container -->
 		</section>
 
-        <section class="vc_row pt-80 pb-60" id="feature">
+        <section class="vc_row pt-80 pb-10" id="feature">
 			<div class="container">
 				<div class="row">
 
@@ -670,7 +679,7 @@
 
 						<header class="fancy-title" data-custom-animations="true" data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":1200,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateX":-32,"opacity":0},"animations":{"translateX":0,"opacity":1}}'>
 
-							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">With The Best Feature</h6>
+							<h6 class="text-uppercase ltr-sp-2 font-size-12 font-weight-semibold text-secondary">With The Best Features</h6>
 							<h2 class="mt-md-4 pr-md-7 mb-4">Hola!
                                 <span class="spin w1"> How are you?</span>
                                 <span class="spin w2"> Wie geht's?</span>
@@ -763,36 +772,32 @@
 			</div><!-- /.container -->
 		</section><!-- /.vc_row -->
 
-        <section class="vc_row pt-30 pb-180">
+        <section class="vc_row pt-10 pb-200">
             <div class="container">
                 <div class="row">
-
-                    <div class="lqd-column col-md-12 text-center mb-100">
-
-                        <h2>3D Carousel with Icon Boxes</h2>
+                    <div class="lqd-column col-md-12 text-center mb-140">
+                        <h2>Features including</h2>
 
                     </div><!-- /.lqd-column col-md-12 -->
 
                     <div class="lqd-column col-md-6 col-md-offset-3">
-
                         <div class="carousel-container carousel-vertical-3d">
-
                             <div class="carousel-items">
 
                                 <div class="carousel-item">
 
-                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-1" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-2" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
                                         <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
                                         <div class="iconbox-icon-wrap">
                                             <span class="iconbox-icon-container">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
-                                                </svg>
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <g> <path stroke-width="2" stroke-miterlimit="10" d="M51.799,15.202 c10.936,10.933,10.936,28.662,0,39.595c-10.935,10.938-28.664,10.938-39.598,0c-10.935-10.933-10.935-28.662,0-39.595 C23.135,4.266,40.864,4.266,51.799,15.202z"></path> <path stroke-width="2" stroke-miterlimit="10" d="M32,7L32,1L38,1"></path> <path stroke-width="2" stroke-miterlimit="10" d="M26,1L32,1"></path> <path stroke-width="2" stroke-miterlimit="10" d="M32,63L32,59"></path> <path stroke-width="2" stroke-miterlimit="10" d="M32,11L32,7"></path> <path stroke-width="2" stroke-miterlimit="10" d="M4,35L8,35"></path> <path stroke-width="2" stroke-miterlimit="10" d="M56,35L60,35"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14.564,17.565L17.394,20.394"></path> <path stroke-width="2" stroke-miterlimit="10" d="M46.606,49.606L49.436,52.436"></path> <path stroke-width="2" stroke-miterlimit="10" d="M49.436,17.565L46.607,20.394"></path> <path stroke-width="2" stroke-miterlimit="10" d="M17.395,49.606L14.564,52.436"></path> <path stroke-width="2" stroke-miterlimit="10" d="M32,21L32,33"></path> <path stroke-width="2" stroke-miterlimit="10" d="M29,35A3,3 0,1,1 35,35A3,3 0,1,1 29,35"></path> </g> </svg>
+                                                </span>
                                             </span>
                                         </div><!-- /.iconbox-icon-wrap -->
                                         <div class="contents">
-                                            <h3 class="font-weight-semibold">One Collection</h3>
-                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                            <h3 class="font-weight-semibold">Glotta RTL</h3>
+                                            <p>Kesulitan dalam belajar berbahasa? Jangan khawatir! Para tentor kami yang sudah berpengalaman di bidangnya akan siap membantu kamu belajar dengan metode <b>Real-Time Learning</b>.</p>
                                         </div><!-- /.contents -->
                                     </div><!-- /.iconbox -->
 
@@ -800,18 +805,18 @@
 
                                 <div class="carousel-item">
 
-                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-2" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-3" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
                                         <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
                                         <div class="iconbox-icon-wrap">
                                             <span class="iconbox-icon-container">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
-                                                </svg>
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <path stroke-width="2" stroke-miterlimit="10" d="M1,32A31,31 0,1,1 63,32A31,31 0,1,1 1,32"></path> <path stroke-width="2" stroke-miterlimit="10" d="M17,32A15,15 0,1,1 47,32A15,15 0,1,1 17,32"></path> <path stroke-width="2" stroke-miterlimit="10" d="M26,18L26,1"></path> <path stroke-width="2" stroke-miterlimit="10" d="M38,18L38,1"></path> <path stroke-width="2" stroke-miterlimit="10" d="M26,63L26,46"></path> <path stroke-width="2" stroke-miterlimit="10" d="M38,63L38,46"></path> <path stroke-width="2" stroke-miterlimit="10" d="M46,26L63,26"></path> <path stroke-width="2" stroke-miterlimit="10" d="M46,38L63,38"></path> <path stroke-width="2" stroke-miterlimit="10" d="M1,26L18,26"></path> <path stroke-width="2" stroke-miterlimit="10" d="M1,38L18,38"></path> </svg>
+                                                </span>
                                             </span>
                                         </div><!-- /.iconbox-icon-wrap -->
                                         <div class="contents">
-                                            <h3 class="font-weight-semibold">One Collection</h3>
-                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                            <h3 class="font-weight-semibold">Regular Course</h3>
+                                            <p>Tingkatkan kemampuan berbahasa kamu bersama tutor-tutor yang berpengalaman di bidangnya! Banyak fitur-fitur yang nggak kalah asik juga, loh!</p>
                                         </div><!-- /.contents -->
                                     </div><!-- /.iconbox -->
 
@@ -819,18 +824,18 @@
 
                                 <div class="carousel-item">
 
-                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-3" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
                                         <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
                                         <div class="iconbox-icon-wrap">
                                             <span class="iconbox-icon-container">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
-                                                </svg>
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><path stroke-width="2" stroke-miterlimit="10" d="M32,47L63,47L63,5L1,5L1,47L18,47L18,59Z"></path> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M23,26L30,33L 43,20"></path> </svg>
+                                                </span>
                                             </span>
                                         </div><!-- /.iconbox-icon-wrap -->
                                         <div class="contents">
-                                            <h3 class="font-weight-semibold">One Collection</h3>
-                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                            <h3 class="font-weight-semibold">Chat Interaktif</h3>
+                                            <p>Masih ada materi regular course yang belum kamu kuasai? Jangan khawatir! Kamu bisa chat dan berinteraksi terkait materi tersebut bersama tutor dan teman-teman yang lain di grup yang telah kami sediakan, kok!</p>
                                         </div><!-- /.contents -->
                                     </div><!-- /.iconbox -->
 
@@ -838,34 +843,104 @@
 
                                 <div class="carousel-item">
 
-                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"color":"#0ea699","hoverColor":"#fff"}'>
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
                                         <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
                                         <div class="iconbox-icon-wrap">
                                             <span class="iconbox-icon-container">
-                                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
-                                                    <path stroke-width="2" stroke-miterlimit="10" d="M5,41L11,1L53,1L59,41" style="stroke-dasharray: 123, 125; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M21,41c0,6.075,4.925,11,11,11s11-4.925,11-11h16v22 H5V41H21z" style="stroke-dasharray: 165, 167; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,31L52,31" style="stroke-dasharray: 40, 42; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M14,21L50,21" style="stroke-dasharray: 36, 38; stroke-dashoffset: 0;"></path> <path stroke-width="2" stroke-miterlimit="10" d="M16,11L48,11" style="stroke-dasharray: 32, 34; stroke-dashoffset: 0;"></path>
-                                                </svg>
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <rect x="1" y="32" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> <rect x="32" y="32" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> <rect x="1" y="1" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> <rect x="32" y="1" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="31" height="31" /> </svg>
+                                                </span>
                                             </span>
                                         </div><!-- /.iconbox-icon-wrap -->
                                         <div class="contents">
-                                            <h3 class="font-weight-semibold">One Collection</h3>
-                                            <p>Carefully crafted section templates help you to speed up your design process. Import a pre-built section and change the content.</p>
+                                            <h3 class="font-weight-semibold">GSC</h3>
+                                            <p>Tingkatkan kemampuan speaking Bahasa Inggris kamu dengan mendiskusikan topik-topik terkini yang ada di sesi FGD bersama Glotta!</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+                                </div><!-- /.carousel-item -->
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"><defs xmlns="http://www.w3.org/2000/svg"><linearGradient gradientUnits="userSpaceOnUse" id="grad629102" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="rgb(120, 11, 238)"></stop><stop offset="100%" stop-color="rgb(29, 225, 209)"></stop></linearGradient></defs> <g> <path stroke-width="2" stroke-miterlimit="10" d="M1,6L1,54L32,58L63,54L63,6L32,10Z"></path> <path stroke-width="2" stroke-miterlimit="10" d="M32,58L32,10"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,16L26,18"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,26L26,28"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,36L26,38"></path> <path stroke-width="2" stroke-miterlimit="10" d="M7,46L26,48"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,16L38,18"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,26L38,28"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,36L38,38"></path> <path stroke-width="2" stroke-miterlimit="10" d="M57,46L38,48"></path> </g> </svg>
+                                                </span>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">Modul Digital</h3>
+                                            <p>Materi utama yang akan kamu dapatkan untuk membantu proses belajar kamu selama mengikuti kursus.</p>
                                         </div><!-- /.contents -->
                                     </div><!-- /.iconbox -->
 
                                 </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <g> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M45.968,48.968L 31.967,62.968L18,49" ></path> </g> <g> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M18,15L 32.032,0.968L46.032,14.968" ></path> </g> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M26.968,31.968A5,5 0,1,1 36.968,31.968A5,5 0,1,1 26.968,31.968" ></path> <g> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M49,18L63,32L 49,46" ></path> </g> <g> <path stroke-width="2" stroke-linejoin="bevel" stroke-miterlimit="10" d="M15.032,45.968L 1,31.935L14.968,17.968" ></path> </g> </svg>
+                                                </span>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">Video Pembelajaran</h3>
+                                            <p>Wow, ada cara asik dan nenyenangkan untuk mendalami materi, nih! Lengkap dengan animasi yang menarik dan penjelasan tutor yang menyeluruh, loh!</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <path stroke-width="2" stroke-miterlimit="10" d="M1 11 L63 11 L63 53 L1 53 Z"></path> <path stroke-width="2" stroke-miterlimit="10" d="M1,17L63,17"></path> <path stroke-width="2" stroke-miterlimit="10" d="M1,25L63,25"></path> <path stroke-width="2" stroke-miterlimit="10" d="M6,47L10,47"></path> <path stroke-width="2" stroke-miterlimit="10" d="M12,47L41,47"></path> </svg>
+                                                </span>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">Sertifikat TOEFL Preparation Class</h3>
+                                            <p>Ingin dilirik para recruiter? Tingkatkan kualifikasi bahasamu! Kami akan memberikan sertifikat untuk para peserta yang telah berhasil menyelesaikan kelas.</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item">
+
+                                    <div class="iconbox iconbox-side iconbox-round iconbox-shadow iconbox-heading-sm iconbox-filled iconbox-filled iconbox-filled-hover iconbox-has-fill-element" id="iconbox-carousel-4" data-animate-icon="true" data-plugin-options='{"resetOnHover":true,"color":"#0ea699","hoverColor":"#fff"}'>
+                                        <span class="iconbox-fill-el iconbox-fill-el-hover bg-gradient-secondary-br"></span>
+                                        <div class="iconbox-icon-wrap">
+                                            <span class="iconbox-icon-container">
+                                                <span class="iconbox-icon-container">
+                                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve"> <path stroke-width="2" stroke-miterlimit="10" d="M53.92,10.081c12.107,12.105,12.107,31.732,0,43.838 c-12.106,12.108-31.734,12.108-43.84,0c-12.107-12.105-12.107-31.732,0-43.838C22.186-2.027,41.813-2.027,53.92,10.081z"></path> <path stroke-width="2" stroke-miterlimit="10" d="M9.001000000000001,32A22.999,22.999 0,1,1 54.998999999999995,32A22.999,22.999 0,1,1 9.001000000000001,32"></path> <path stroke-width="2" stroke-miterlimit="10" d="M17,32A15,15 0,1,1 47,32A15,15 0,1,1 17,32"></path> <path stroke-width="2" stroke-miterlimit="10" d="M25.001,32A6.999,6.999 0,1,1 38.999,32A6.999,6.999 0,1,1 25.001,32"></path> </svg>
+                                                </span>
+                                            </span>
+                                        </div><!-- /.iconbox-icon-wrap -->
+                                        <div class="contents">
+                                            <h3 class="font-weight-semibold">Placement Test</h3>
+                                            <p>Ingin menguji kemampuan berbahasa kamu? Yuk, coba sekarang! Ga sampe 1 jam dan gratis!</p>
+                                        </div><!-- /.contents -->
+                                    </div><!-- /.iconbox -->
+                                </div><!-- /.carousel-item -->
+
 
                             </div><!-- /.carousel-items -->
-
                         </div><!-- /.carousel-container -->
-
                     </div><!-- /.lqd-column col-md-6 col-md-offset-3 -->
 
                 </div><!-- /.row -->
             </div><!-- /.container -->
         </section>
 
-		<section class="vc_row pt-90 pb-150" id="team">
+		<section class="vc_row pt-90 pb-90" id="team">
 			<div class="container">
 				<div class="row d-flex flex-wrap align-items-center">
 
@@ -941,7 +1016,7 @@
 			</div><!-- /.container -->
 		</section>
 
-		{{-- <section class="vc_row pt-200 pb-100" id="testimonials">
+		<section class="vc_row pt-10 pb-100" id="testimonials">
 			<div class="container">
 				<div class="row">
 
@@ -957,7 +1032,7 @@
 
 					</div><!-- /.col-lg-4 col-md-12 -->
 
-					<div class="lqd-column col-lg-7 col-lg-offset-1 col-xs-12 mb-7 mb-md-0">
+					{{-- <div class="lqd-column col-lg-7 col-lg-offset-1 col-xs-12 mb-7 mb-md-0">
 
 						<div class="carousel-container carousel-vertical-3d">
 
@@ -1033,11 +1108,219 @@
 
 						</div><!-- /.carousel-container -->
 
-					</div><!-- /.col-lg-7 col-lg-offset-1 -->
+					</div><!-- /.col-lg-7 col-lg-offset-1 --> --}}
+
+                    <div class="lqd-column col-lg-7 col-lg-offset-1 col-xs-12 mb-7 mb-md-0">
+
+                        <div class="carousel-container">
+
+                            <div class="carousel-items row" data-lqd-flickity='{ "prevNextButtons": false, "fullwidthSide": true, "groupCells": false }'>
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <figure class="avatar ">
+                                                <img src="./assets/demo/testimonials/testi-11.jpg" alt="Caleb Cruz">
+                                            </figure>
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <figure class="avatar ">
+                                                <img src="./assets/demo/testimonials/testi-11.jpg" alt="Caleb Cruz">
+                                            </figure>
+
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                                <div class="carousel-item col-sm-6 col-xs-12">
+
+                                    <div class="testimonial testimonial-sm testimonial-whole-filled testimonial-fill-onhover testimonial-whole-shadowed testimonial-whole-shadowed-alt testimonial-info-inline round">
+
+                                        <div class="testimonial-quote-mark mb-3 mt-3">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="58" height="42" viewBox="0 0 58 42">
+                                                <path d="M72.7773438,74.171875 C76.4231953,76.5807412 78.2460938,80.0637793 78.2460938,84.6210938 C78.2460938,88.3320498 77.0742305,91.391915 74.7304688,93.8007812 C72.386707,96.2096475 69.4244971,97.4140625 65.84375,97.4140625 C62.5234209,97.4140625 59.6588662,96.2421992 57.25,93.8984375 C54.8411338,91.5546758 53.6367188,88.4622588 53.6367188,84.6210938 C53.6367188,81.1705557 54.8411338,77.6875176 57.25,74.171875 L68.578125,56.7890625 L80.3945312,56.7890625 L72.7773438,74.171875 Z M102.5625,74.171875 C106.208352,76.5807412 108.03125,80.0637793 108.03125,84.6210938 C108.03125,88.3320498 106.859387,91.391915 104.515625,93.8007812 C102.171863,96.2096475 99.2096533,97.4140625 95.6289062,97.4140625 C92.3085771,97.4140625 89.4440225,96.2421992 87.0351562,93.8984375 C84.62629,91.5546758 83.421875,88.4622588 83.421875,84.6210938 C83.421875,81.1705557 84.62629,77.6875176 87.0351562,74.171875 L98.3632812,56.7890625 L110.179688,56.7890625 L102.5625,74.171875 Z" transform="translate(-53 -56)"></path>
+                                            </svg>
+                                        </div><!-- /.testimonial-quote-mark -->
+
+                                        <div class="testimonial-quote mt-2">
+                                            <blockquote>
+                                                <p>Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor expression unpleasing she led met. Estate was tended ten boy nearer seemed. As so seeing latter he should thirt.</p>
+                                            </blockquote>
+                                        </div><!-- /.testimonial-qoute -->
+
+                                        <div class="testimonial-details mt-4 mb-3">
+                                            <div class="testimonial-info">
+                                                <h5>Antonio Jensen</h5>
+                                                <h6>Creative Director</h6>
+                                            </div><!-- /.testimonial-info -->
+                                        </div><!-- /.testimonial-details -->
+
+                                    </div><!-- /.testimonial -->
+
+                                </div><!-- /.carousel-item -->
+
+                            </div><!-- /.carousel-items row -->
+
+                        </div><!-- /.carousel-container -->
+
+                </div><!-- /.lqd-column col-md-9 -->
 
 				</div><!-- /.row -->
 			</div><!-- /.container -->
-		</section> --}}
+		</section>
 
 		<section class="vc_row pt-100 pb-70" id="event">
 			<div class="container">
@@ -1123,7 +1406,7 @@
 
 						<a href="#" class="btn btn-solid text-uppercase circle btn-bordered border-thin font-size-14 font-weight-semibold" data-localscroll="true" data-localscroll-options='{"scrollBelowSection":true}'>
 							<span>
-								<span class="btn-txt">Try Now!</span>
+								<span class="btn-txt">Try It Now!</span>
 							</span>
 						</a>
 
